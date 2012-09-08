@@ -6,6 +6,7 @@ Components:
 - Twitter Streaming API for listening for new messages
 - Frotz (http://sourceforge.net/projects/frotz/) for processing original story file
 - MySQL for server storage of game state, keyed from @username
+- (More important for later) Inform 7 tool for creating new interactive fiction files
 
 Todos: 
 How much game state must Frotz be fed, to understand where the user is? 
@@ -18,4 +19,4 @@ Can we pass messages into / out of Frtoz via something other than C? (God I hope
 
 Register hhggbot.com when appropriate / ready
  
-
+Dependencies Installed: twitstream 0.1, tlslite (to support twitstream)
